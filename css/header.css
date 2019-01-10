@@ -241,10 +241,3 @@
 	font-size: 8px;
 }
 }
-
-
-@media screen and (min-width: 2000px){
-	.point{
-		font-size: 1px;
-	}
-}
