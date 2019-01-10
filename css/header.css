@@ -1,0 +1,250 @@
+@font-face {
+        font-family: Raleway; /* Имя шрифта */
+        src: url('font/CenturyGothic.ttf'); /* Путь к файлу со шрифтом */
+	}
+.our-items{
+	font-family: Raleway;
+	font-weight: bold;
+}
+.content {
+	width: 1200px;
+	padding: 0 5%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.content .header {
+	width: 100%;
+	flex-direction: column;
+	background-color: white;
+		
+}
+.content .header .up_header {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin: 20px 0px 30px;
+}
+.logo{
+	background-image: url('../image/logo.PNG');
+}
+
+.phone{
+	background-image: url('../image/phone.PNG');
+	background-repeat: no-repeat;
+}
+
+.content .header .up_header .logo {
+	display: flex;
+	width: 200px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.content .header .up_header .phone {
+	display: flex;
+	margin: 0 10px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	font-family: Raleway;
+}
+.content .header .up_header .phone .image {
+	width: 20px;
+	height: 100%;
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.content .header .up_header .phone .number {
+	width: 170px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+.content .header .up_header .phone .number p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Raleway;
+}
+.content .header .up_header .phone .number .call {
+	cursor: pointer;
+	color: #8daf34;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 12px;
+}
+.content .header .up_header .search {
+	display: flex;
+	min-width: 400px;
+	max-width: 500px;
+	margin: 0 10px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	font-family: Raleway;
+}
+.content .header .up_header .search .input {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.05);
+	display: flex;
+	align-items: center;
+	position: relative;
+	border: none;
+	text-indent: 10px;
+	font-family: Raleway;
+}
+.content .header .up_header .search .input font {
+	font-size: 12px;
+	padding-left: 10px;
+	color: rgba(0,0,0,0.5);
+	font-family: Raleway;
+}
+.content .header .up_header .search .input .button {
+	position: absolute;
+	right: 0px;
+	width: 30px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	cursor: pointer;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+}
+.content .header .up_header .like {
+	display: flex;
+	margin: 0 10px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.like{
+	background-image: url('../image/header-hearth.PNG');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.content .header .up_header  .image {
+	width: 30px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;}
+.content .header .up_header .like font {
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	padding-left: 10px;
+	font-family: Raleway;
+}
+.content .header .up_header .trash {
+	display: flex;
+	margin: 0 10px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.content .header .up_header .trash .image {
+	width: 30px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.trash {
+	background-image: url('../image/header-busket.PNG');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.content .header .up_header .trash font {
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	padding-left: 10px;
+	font-family: Raleway;
+}
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.menu .point {
+	padding: 20px 0;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Raleway;
+	height: 100%;
+	display: flex;
+}
+.menu .point:hover {
+	height: 61px;
+	border-bottom: 4px solid #8daf34;
+}
+.menu .point .under {
+	width: 100%;
+	display: none;
+	background-color: white;
+	position: absolute;
+	z-index: 10;
+	top: 153px;
+	left: 0;
+	justify-content: center;
+}
+.menu .point .under .under_menu {
+	display: flex;
+	max-width: 1200px;
+	min-width: 1200px;
+	padding: 0 5%;
+	cursor: default;
+	flex-wrap: wrap;
+}
+.menu .point .under .under_menu .block {
+	display: flex;
+	min-width: 25%;
+	max-width: 25%;
+	flex-direction: column;
+	padding: 10px 0;
+}
+.menu .point .under .under_menu .block .cat {
+	font-weight: bold;
+	font-size: 15px;
+	padding: 10px 0;
+	color: black;
+	font-family: Raleway;
+}
+.menu .point .under .under_menu .block .undercat {
+	font-size: 12px;
+	padding: 5px 0;
+	color: gray;
+	font-family: Raleway;
+}
+.menu .point:hover > .under {
+	display: flex;
+}
+@media screen and (max-width: 1200px) {
+	.header { display: none }
+}
+@media screen and (max-width: 1000px){
+.point{
+	font-size: 8px;
+}
+}
+
+
+@media screen and (min-width: 2000px){
+	.point{
+		font-size: 1px;
+	}
+}

@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 5%;
+}
+
+.ui-items{
+    display: inline;
+}
+
+
+.ui-items img{
+    float: right;
+}
+.front-long-item p {
+    margin: 5px;
+}
+
+.spec strong, p{
+    text-align: left;
+    font-family: sans-serif;
+    margin: 40px auto;
+}
+
+.spec {
+    padding: 5%;
+    color:white;
+    background: blue;
+    background: url(../image/novost-spice.jpg);
+    text-shadow: #000 1px 0px 1px, #000 0px 1px 1px, #000 0px -1px 1px, #000 -1px 0px 1px;
+
+}
+
+.spec strong{
+    font-size: 3vw;
+}
+
+.spec p{
+    line-height: 5vh;
+}
+
+.front-item{
+    background-color: #f8f8f8;
+    padding: 10%;
+    margin-bottom: 20px;
+}
+
+.front-item strong {
+    font-size: 1vw;
+    line-height: 2vh;
+
+}
+.front-item h5{
+    display: inline;
+    color: gray;
+    text-decoration: line-through;
+    margin: 1vw auto;
+    font-size: 1.5vw;
+}
+.chose img {
+    width: 20%;
+    float: right;
+}
+
+.chose{
+    display: inline;
+}
+
+
+.sale{
+    text-decoration: none !important;
+    margin-left: 5px;
+    background: #93c01c;
+    color:white !important;
+}
+
+.active{
+    border-bottom: 2px solid green;
+}
+
+#readmore{
+    border:0;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 2vh;
+    height: 7.5vh;
+    text-align: center;
+    background: rgb(0, 172, 0);
+    color: white;
+}
+
+
+.front-long-item{
+    padding: 10%;
+    background: #f8f8f8;
+    height: 100%;
+}
+
+footer{
+    background: #f6f6f6;
+    
+}
+
+.call p, .learn p{
+    margin: 0;
+    padding: 0;
+    color: #a3a3a3;
+    line-height: 5vh;
+}
+
+.search-input{
+    padding: 0;
+    margin: 0;
+    width: 53%;
+    border-radius: 5px;
+    border:1px solid white;
+}
+
+.subscribe{
+    border:0;
+    border-radius: 5px;
+    background: #93c01c;
+    color:white;
+    min-width: 45.3%;
+    font-size: 2.5vh;
+}
+
+.help{
+}
+.info{
+}
+.help ul, .info ul, .company ul, .call ul,.learn ul{    
+    padding: 0;
+    list-style-type: none;
+}
+.help strong, .info strong, .company strong{
+    line-height: 5vh;
+    font-size: 15px;
+}
+.call i{
+    display: block;
+    color:green;
+    line-height: 3vh;
+    font-size:2vh;
+}
+.call strong{
+    line-height: 7vh;
+    font-size: 25px;
+}
+.help li, .info li, .company li, .call li,.learn li{
+    color: #a3a3a3;
+    line-height: 4vh;
+}
+
+.call li{
+    margin-top:10px;
+    line-height: 3vh;
+}
+.front-long-item time{
+float: right;
+line-height: 2vh;
+background: #f8f8f8;
+}
+
+.front-long-item h2{
+    display: inline;
+}
+
+#popular-list{
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+#popular-list li{
+    display: inline;
+    padding: 10px;
+    font-size: 1vw;
+    font-style: unset; 
+}
+.sp-list{
+    margin: 10vh 0;
+    width: 100%;
+}
+
+.news{
+    text-align: center;
+}
+
+.col-lg-4{
+    padding: 15px !important;
+}
+.some-new{
+    padding: 0;
+    border:1px solid #ebebeb;
+}
+.news-button{
+    color:#9cc52e;
+    background: white;
+    border: 2px solid #9cc52e;
+    width: 30%;
+}
+
+
+.about{
+    padding: 8%;
+}
+.about p{
+    color:#a3a3a3;
+    font-size: 15px;
+}
+.about h2{
+    margin: 0;
+    font-size: 2.7vw;
+}
+.health{
+    margin-top: 30px;
+}
+
+.health p {
+    color:#a3a3a3;
+    font-size: 15px;
+}
+
+.about-img{
+width: 100%;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.news-content  p{
+    margin: 5% 0;
+}
+.news-content{
+    padding: 5%;
+}
+.news-content strong{
+    display: block;
+    margin-top: 5%;
+}
+.news-content time, .news-content p{
+    color:#a3a3a3;
+}
+
+.some-new img{
+width: 100%;
+}
+
+.sp-list img{
+    width: 100%;
+}
+.some-item{
+    min-height: 40vh;
+    margin-top:20px;
+    padding: 10%;
+    border:1px solid #ebebeb;
+    position: relative;
+}
+.orange-label{
+    position: absolute;
+    background: #ee7100;
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    top: 0;
+    left: 0;
+}
+.no-margin{
+    margin: 0;
+}
+.stars{
+    margin-top: 10px;
+}
+.checked {
+    color: green;
+  }
+
+.some-item h2{
+    display: inline;
+    width: 50%;
+}
+
+
+.some-item img{
+    height: 90%;
+    display: inline;
+    margin-top: -3px;
+}
+.front-long-item strong {
+    
+font-size: 1.1vw;
+line-height: 3vh;
+}
+
+.front-long-item img{
+    margin:  10px auto;
+}
+
+
+.learn li{
+    margin-top:20px;
+}
+
+.learn img{
+    width: 20%;
+    display: inline;
+}
+
+.learn .cards img{
+    width: 30%;
+}
