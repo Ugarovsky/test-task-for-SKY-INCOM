@@ -28,12 +28,13 @@
     padding: 5%;
     color:white;
     background: blue;
-    background: url(../image/novost-spice.jpg);
+    background: url(../image/a04614367f07b7192daaee3094519758fa7fb7da.png);
     background-size: 100% 100%;
-    text-shadow: #000 1px 0px 1px, #000 0px 1px 1px, #000 0px -1px 1px, #000 -1px 0px 1px;
     height: auto;
 }
-
+.spec-text{
+    width: 70%;
+}
 .spec strong{
     font-size: 3vw;
 }
@@ -49,7 +50,7 @@
 }
 
 .front-item strong {
-    font-size: 1vw;
+    font-size: 12px;
     line-height: 2vh;
 
 }
@@ -125,9 +126,8 @@ footer{
     background: #93c01c;
     color:white;
     display: block;
-    min-width: 30.3%;
-    font-size: 2.5vh;
-    font-size: 20px;
+    min-width: 25.3%;
+    font-size: 15px;
     margin-top: 10px;
 }
 
@@ -180,7 +180,7 @@ background: #f8f8f8;
 #popular-list li{
     display: inline;
     padding: 10px;
-    font-size: 1vw;
+    font-size: 10px;
     font-style: unset; 
 }
 .sp-list{
@@ -190,6 +190,7 @@ background: #f8f8f8;
 
 .news{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .col-lg-4{
@@ -296,7 +297,7 @@ width: 100%;
 }
 .front-long-item strong {
     
-font-size: 1.1vw;
+font-size: 15px;
 line-height: 3vh;
 }
 

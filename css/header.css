@@ -224,6 +224,9 @@
 	color: black;
 	font-family: Raleway;
 }
+footer li{
+	cursor: pointer;
+}
 .menu .point .under .under_menu .block .undercat {
 	font-size: 12px;
 	padding: 5px 0;
@@ -235,7 +238,23 @@
 }
 @media screen and (max-width: 1200px) {
 	.header { display: none }
-}
+	.learn img {
+		width: 10%;
+		display: inline;
+	}
+	.cards img {
+		width: 15% !important;
+	}
+	.menu .point {
+		padding: 20px 0;
+		cursor: pointer;
+		font-weight: bold;
+		font-size: 10px;
+		font-family: Raleway;
+		height: 100%;
+		display: flex;
+	}
+	}
 @media screen and (max-width: 1000px){
 .point{
 	font-size: 8px;
