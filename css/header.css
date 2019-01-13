@@ -205,7 +205,7 @@
 .menu .point .under .under_menu {
 	display: flex;
 	max-width: 1200px;
-	min-width: 1200px;
+	min-width: 100%;
 	padding: 0 5%;
 	cursor: default;
 	flex-wrap: wrap;
@@ -241,6 +241,16 @@ footer li{
 	.learn img {
 		width: 10%;
 		display: inline;
+	}
+	.menu .point .under {
+		width: 100%;
+		display: none;
+		background-color: white;
+		position: absolute;
+		z-index: 10;
+		top: 70px;
+		left: 0;
+		justify-content: center;
 	}
 	.cards img {
 		width: 15% !important;
